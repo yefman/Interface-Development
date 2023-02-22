@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Registration Form</title>
+</head>
+<body>
+  <h1>Registration Form</h1>
+  <form name="registrationForm" onsubmit=" validateForm(); return false;" method="post">
+    <h2>Username</h2>
+    <input type="text" id="username" name="username"><br>
+
+    <h2>Email</h2>
+    <input type="email" id="email" name="email"><br>
+
+    <h2>Password</h2>
+    <input type="password" id="password" name="password"><br>
+
+    <input type="submit" value="Register">
+  </form>
+
+  <h2>Search Products</h2>
+  <input id="searchInput" type="text" placeholder="Search...">
+<ul id="productList"></ul>
+
+  <script type="text/javascript" src="./js/scripts.js"></script>
+</body>
+</html>
+
+
+
+
